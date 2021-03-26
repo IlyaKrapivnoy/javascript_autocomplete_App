@@ -25,7 +25,7 @@ const outputHtml = matches => {
                 <h4>${match.name} (${match.abbr}) <span class="text-primary>${match.capital}</span></h4>
                 <small>Lat: ${match.lat} / Long: ${match.long} </small>
             </div>
-        `);
+        `).join('');
         console.log(html)
     }
 }
